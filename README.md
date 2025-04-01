@@ -1,0 +1,2 @@
+# SQB
+ Search querie builder.
