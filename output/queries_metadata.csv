@@ -1,0 +1,9 @@
+sq_id,timestamp,input_file,main_group,group_count,terms_total,query_count,group_logic
+default_run,2025-04-02T10:19:17,data/sample.csv,Countries,3,129,38,﻿Platforms:AND; BanPhrases:AND
+default_run,2025-04-02T10:24:11,data/sample.csv,BanPhrases,3,129,7,﻿Platforms:AND; Countries:AND
+d45c2cd5e2,2025-04-02T10:32:10,data/sample.csv,BanPhrases,3,129,7,﻿Platforms:AND; Countries:NOT
+b69fedf68d,2025-04-02T10:44:52,data/sample.csv,Countries,3,129,38,﻿Platforms:OR/OR; BanPhrases:AND/AND
+b97b197235,2025-04-02T10:47:25,data/sample.csv,BanPhrases,3,129,7,﻿Platforms:NOT/OR; Countries:OR/OR
+2ef8f1b371,2025-04-02T10:54:27,data/sample.csv,Countries,3,129,38,﻿Platforms:NOT/AND; BanPhrases:OR/OR
+51e0280923,2025-04-02T11:02:14,data/sample.csv,Countries,3,129,38,﻿Platforms:AND/OR; BanPhrases:AND/OR
+30f3ca421c,2025-04-02T11:03:34,data/sample.csv,BanPhrases,3,129,7,﻿Platforms:NOT/AND; Countries:AND/AND
